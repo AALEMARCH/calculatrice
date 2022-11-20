@@ -64,9 +64,6 @@ main{
     max-width: 1000px;
     border-radius: 5px;
     background-color: var(--color-3);
-    @media screen and(min-width: 375px){
-     max-width: 80%;
-    }
     @media screen and(min-width: 500px){
      max-width: 70%;
     }
