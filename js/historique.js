@@ -1,3 +1,4 @@
+// fonctionnalité: historique de calcul
 const btnlocationCalculatrice =
   document.getElementsByClassName("btnCalculatrice");
 
