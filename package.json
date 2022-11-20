@@ -1,0 +1,15 @@
+{
+  "name": "calculatrice",
+  "version": "1.0.0",
+  "description": "projet perso de calculatrice avec html sass et js",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:css/style.css --style compressed",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
+  },
+  "author": "Antoine Lemarchand",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "dependencies": {
+  }
+}

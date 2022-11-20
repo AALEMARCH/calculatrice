@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>calculatrice</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <meta name="description" content="calculatrice - petit projet de calculatrice en HTML SASS JavaScript">
+
+    <script src="https://kit.fontawesome.com/fb14b9bbe3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<main>
+    <header class="banner">
+        <nav class="mesure">
+            <button class="btnTop" disabled>Calculatrice</button>
+            <button class="btnTop btnHistorique" href="historique.html">Historique</button>
+        </nav>
+
+    </header>
+        <section class="screen">
+            <p class="screen_calcul"></p>
+            <p class="screen_resultat"></p>
+        </section>
+        <section class="touch">
+            <button class="button" data-key="46">AC</button>
+            <button class="button" data-key="8"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="button" data-key="111">/</button>
+            <button class="button" data-key="106">*</button>
+            <button class="button" data-key="103">7</button>
+            <button class="button" data-key="104">8</button>
+            <button class="button" data-key="105">9</button>
+            <button class="button" data-key="109">-</button>
+            <button class="button" data-key="100">4</button>
+            <button class="button" data-key="101">5</button>
+            <button class="button" data-key="102">6</button>
+            <button class="button" data-key="107">+</button>
+            <button class="button" data-key="97">1</button>
+            <button class="button" data-key="98">2</button>
+            <button class="button" data-key="99">3</button>
+            <button class="button" data-key="110">.</button>
+            <button class="button" data-key="96">0</button>
+            <button class="button" data-key="53">(</button>
+            <button class="button" data-key="219">)</button>
+            <button class="button" data-key="187">=</button>
+        </section>
+</main>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
